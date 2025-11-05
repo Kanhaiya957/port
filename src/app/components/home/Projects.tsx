@@ -16,39 +16,13 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Mcodo :Learn Coding with AI",
+    title: "Comprehensive Design and Planning of a Guest House",
     description:
-      "Mcodo is an AI-powered learning platform that makes coding interactive, personalized, and fun for everyone—from beginners to pros.",
-    image: "/images/projects/mcodo.webp",
-    tags: ["Kotlin", "NodeJS", "Room-DB", "Ktor Client", "SSE"],
-    github: null,
-    demo: "https://play.google.com/store/apps/details?id=com.sohezsoft.mcodo&hl=en_IN",
-  },
-  {
-    title: "HRMS System",
-    description:
-      "HRMS System – Full Stack Web & Android app for attendance, leave, payroll, and scheduling with secure RBAC and JWT auth.",
-    image: "/images/projects/hrms.webp",
-    tags: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind",
-      "Express",
-      "PostgreSQL",
-      "Jetpack Compose",
-      "Drizzel-ORM",
-    ],
-    github: null,
-    demo: null,
-  },
-  {
-    title: "M.C.P : Marks & Percentage Calculator",
-    description:
-      "powerful and easy-to-use solution for calculating academic performance. Built with HTML, CSS, JavaScript, html2canvas, and jsPDF.",
-    image: "/images/projects/mpc.webp",
-    tags: ["HTML", "Css", "JS", "html2canvas", "jsPDF"],
-    github: "https://github.com/sohez/Marks-Percentage-Calculator",
-    demo: "https://sohez.github.io/Marks-Percentage-Calculator/",
+      "A comprehensive guest house design utilizing Building Information Modeling (BIM) technology to ensure efficient planning, 3D visualization, and system integration. This project enhances sustainability, collaboration, and accuracy across architecture, structure, and services for optimal functionality.",
+    image: "/images/projects/guest-house-project-DQnsbnmL.jpg",
+    tags: ["Revit", "AutoCAD", "Twinmotion", "SketchUp"],
+    github: "https://github.com/Kanhaiya957/GUEST-HOUSE-DESIGN-",
+    demo: "https://drive.google.com/file/d/1NSsFNFv4VxxU3-O6t_k9GQgGtW-x_y3y/view?usp=drivesdk",
   },
 ];
 
@@ -109,7 +83,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="mt-6 text-center text-gray-500"
         >
-          Delivered 15+ confidential projects across web and mobile platforms.
+          Delivered 5+ confidential projects across web platforms.
         </motion.div>
       </div>
     </section>

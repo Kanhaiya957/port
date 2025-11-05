@@ -13,13 +13,13 @@ const socialLinks = [
   {
     name: "Instagram",
     icon: <BsInstagram size={20}/>,
-    url: "https://www.instagram.com/sohel_sayyed.dev",
+    url: "https://www.instagram.com/_kanhaiya_kumar_01_/",
   },
-  { name: "Email", icon: <MdMailOutline size={25}/>, url: "mailto:techsohez@gmail.com" },
+  { name: "Email", icon: <MdMailOutline size={25}/>, url: "mailto:jhak5271@gmail.com" },
   {
     name: "WhatsApp",
     icon: <BsWhatsapp size={20}/>,
-    url: "https://wa.me/+917887614788",
+    url: "https://wa.me/+919572519718",
   },
 ];
 
@@ -36,10 +36,10 @@ const Hero = () => {
           className="group relative w-40 sm:w-40 md:w-48 lg:w-56 aspect-square overflow-hidden rounded-full transition-all duration-300"
         >
           <Image
-            src="/images/hero/sohel-sayyed-image.webp"
-            alt="Sohel Sayyed - profile photo"
+            src="/images/hero/image.jpg"
+            alt="Kanhaiya Kumar - profile photo"
             fill
-            className="grayscale-100 hover:grayscale-0 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+            className="grayscale-0 hover:grayscale-0 object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
           />
         </motion.div>
 
@@ -53,7 +53,7 @@ const Hero = () => {
           <div className="flex flex-col justify-center items-center text-center md:text-start md:justify-start md:items-start">
             <span>Hi, I&apos;m</span>
             <h1 className="font-display tracking-wide text-5xl font-medium text-gray-50">
-              Sohel Sayyed
+              Kanhaiya Kumar Jha
             </h1>
           </div>
 
@@ -74,11 +74,7 @@ const Hero = () => {
           </motion.div>
 
           <p className="text-base tracking-wider text-center md:text-left">
-            I&apos;m Sayyed Sohel, a professional with extensive experience in{" "}
-            <span>crafting user-friendly websites</span> and powerful{" "}
-            <span>Android applications</span>. I can help you bring your digital
-            ideas to life — whether it&apos;s a sleek modern website or a
-            feature-rich mobile app!
+            I&apos;m Kanhaiya Kumar Jha, A dedicated Civil Engineering graduate with a solid foundation in technical knowledge and practical skills honed through formal education and hands-on projects. Possesses a strong aptitude for problem-solving, analytical thinking, and a commitment to delivering high-quality work in engineering environments.
           </p>
         </motion.div>
       </div>
@@ -96,11 +92,11 @@ const SkillsSlider = () => {
       {/* <div>I am</div> */}
       <div className="slider">
         <div className="slides ">
-          <div className="underline decoration-1 decoration-blue-500">
-            Android Dev
+          <div className="decoration-blue-500">
+            GATE '26 Aspirant
           </div>
-          <div className="underline decoration-1 decoration-red-500">
-            Fullstack Dev
+          <div className="decoration-red-500">
+            Civil Engineering Graduate
           </div>
         </div>
       </div>

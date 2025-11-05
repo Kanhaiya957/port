@@ -1,11 +1,11 @@
 'use client';
 import React from "react";
 import { IconType } from "react-icons";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaBuilding, FaCube, FaSitemap, FaRobot, FaTrophy, FaHeart, FaPencilAlt, FaBriefcase, FaMicrochip, FaTools } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { TbBrandTypescript } from "react-icons/tb";
 import { RiTailwindCssLine } from "react-icons/ri";
-import { SiExpress } from "react-icons/si";
+import { SiAutodesk, SiCanva, SiDocker, SiExpress, SiPython, SiQgis, SiTwinmotion } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { RiAndroidLine } from "react-icons/ri";
 import { TbBrandKotlin } from "react-icons/tb";
@@ -20,6 +20,7 @@ import { RiVercelLine } from "react-icons/ri";
 import { TbBrandCloudflare } from "react-icons/tb";
 import SectionHeader from "../ui/SectionHeader";
 import { motion } from "framer-motion";
+import { GiVolleyballBall } from "react-icons/gi";
 
 export interface SkillItem {
   name: string;
@@ -33,36 +34,45 @@ export interface SkillGroup {
 
 export const skillsData: SkillGroup[] = [
   {
-    title: "Frontend",
+    title: "Software",
     skills: [
-      { name: "React", logo: FaReact },
-      { name: "Next.js", logo: TbBrandNextjs },
-      { name: "TypeScript", logo: TbBrandTypescript },
-      { name: "TailwindCSS", logo: RiTailwindCssLine },
-      { name: "Javascript", logo: TbBrandJavascript },
-      { name: "Git", logo: FaGitAlt },
-      { name: "Github", logo: FaGithub },
+      { name: "Revit", logo: SiDocker },
+      { name: "AutoCAD", logo: SiAutodesk },
+      { name: "ETABS", logo: FaBuilding },
+      { name: "V-ray", logo: FaCube },
+      { name: "Twinmotion", logo: SiTwinmotion },
+      { name: "SketchUP", logo: FaCube },
+      { name: "QGIS", logo: SiQgis },
+      
     ],
   },
   {
-    title: "Backend",
+    title: "Enterprise & Design Tools",
     skills: [
-      { name: "Node.js", logo: FaNodeJs },
-      { name: "Express", logo: SiExpress },
-      { name: "PostgreSQL", logo: SiPostgresql },
-      { name: "Mongodb", logo: TbBrandMongodb },
-      { name: "Redis", logo: DiRedis },
-      { name: "Firebase", logo: SiFirebase },
-      { name: "Vercel", logo: RiVercelLine },
-      { name: "Cloudflare", logo: TbBrandCloudflare },
+      { name: "SAP MM", logo: FaSitemap },
+      { name: "SAP SD", logo: FaSitemap },
+      { name: "Canva", logo: SiCanva},
+      ],
+  },
+  
+  {
+    title: "Programming & AI",
+    skills: [
+      { name: "Python", logo: SiPython },
+      { name: "AI & ChatGPT", logo: FaRobot },
+      { name: "GitHub", logo: FaGithub },
     ],
   },
   {
-    title: "Mobile",
+    title: "Certification's & Achievement",
     skills: [
-      { name: "Android", logo: RiAndroidLine },
-      { name: "Kotlin", logo: TbBrandKotlin },
-      { name: "Jetpack Compose", logo: SiJetpackcompose },
+      { name: "Winner", logo: FaTrophy },
+      { name: "Volunteer", logo: FaHeart },
+      { name: "Editor", logo: FaPencilAlt },
+       { name: "Internship", logo: FaBriefcase },
+      { name: "Vollleyball", logo: GiVolleyballBall },
+      { name: "Techfest", logo: FaMicrochip },
+      { name: "Workshop", logo: FaTools },
     ],
   },
 ];

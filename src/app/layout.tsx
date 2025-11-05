@@ -20,7 +20,7 @@ const openSans = Open_Sans({
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Person",
-  name: "SAYYED SOHEL",
+  name: "Kanhaiya Kumar Jha",
   url: "https://sohez.github.io/",
   image: "https://sohez.github.io/images/hero/sohel-sayyed-image.webp",
   sameAs: [
@@ -28,7 +28,7 @@ const schemaData = {
     "https://github.com/sohez",
     "https://www.linkedin.com/in/sohez/",
   ],
-  jobTitle: "Founder & Software Developer",
+  jobTitle: "Civil Engineer",
   worksFor: {
     "@type": "Organization",
     name: "Sohezsoft",
